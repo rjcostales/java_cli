@@ -21,6 +21,7 @@ public class Sieve {
                         i % 23 == 0 || i % 29 == 0 || i % 31 == 0 || i % 37 == 0 ||
                         i % 41 == 0 || i % 43 == 0 || i % 47 == 0)
                     flag[i] = false;
+
                 else
                     flag[i] = true;
             }

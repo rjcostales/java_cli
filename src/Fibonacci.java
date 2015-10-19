@@ -1,10 +1,5 @@
-import sun.util.resources.LocaleData;
-
 import java.util.Date;
 
-/**
- * Created by jcostales on 6/17/2015.
- */
 public class Fibonacci {
 
     public static void main(String argv[]) {

@@ -1,3 +1,5 @@
+package com.rjsc.cli;
+
 import java.util.Enumeration;
 import java.util.Random;
 import java.util.Vector;

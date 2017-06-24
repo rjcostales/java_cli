@@ -8,8 +8,8 @@ public class Blackjack {
 
     public static void main(String argv[]) {
 
-        Vector<Integer> dealer = new Vector<Integer>();
-        Vector<Integer> player = new Vector<Integer>();
+        Vector<Integer> dealer = new Vector<>();
+        Vector<Integer> player = new Vector<>();
 
         int which;
         boolean dd;
@@ -26,8 +26,8 @@ public class Blackjack {
         for (int i = 0; i < 15; i++) {
 
             // clear dealer
-            player.removeAllElements();
-            dealer.removeAllElements();
+            player.clear();
+            dealer.clear();
             dd = false;
 
             // deal two cards
@@ -102,6 +102,7 @@ public class Blackjack {
             System.out.println("player " + pv + ", " + player);
             System.out.println("dealer " + dv + ", " + dealer + "\n");
 
+            // who won
             if (pv > dv) {
                 wins++;
                 if (dd)

@@ -19,7 +19,7 @@ public class GenerateList {
     }
 
     public static List<String> read(String name) {
-        List<String> list = new ArrayList<String>();
+        List<String> list = new ArrayList<>();
         String line;
 
         try {

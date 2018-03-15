@@ -16,7 +16,7 @@ public class Fibonacci {
         System.out.println(end.toString());
     }
 
-    static  long fibonacci(int n) {
+    static long fibonacci(int n) {
         switch (n) {
             case 0:
                 return 0;

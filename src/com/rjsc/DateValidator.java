@@ -6,9 +6,9 @@ import java.util.Date;
 
 public class DateValidator {
 
-    public boolean isThisDateValid(String dateToValidate, String dateFromat){
+    public boolean isThisDateValid(String dateToValidate, String dateFromat) {
 
-        if(dateToValidate == null){
+        if (dateToValidate == null) {
             return false;
         }
 

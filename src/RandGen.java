@@ -26,12 +26,12 @@ public class RandGen {
             sum1 += d;
             sum2 += d * d;
 
-			/*
+            /*
              * double d = Math.RandGen(); d += Math.RandGen(); d += Math.RandGen();
-			 * d += Math.RandGen(); d += Math.RandGen(); d += Math.RandGen(); d +=
-			 * Math.RandGen(); d += Math.RandGen(); d += Math.RandGen(); d +=
-			 * Math.RandGen(); d += Math.RandGen(); d += Math.RandGen() - 6;
-			 */
+             * d += Math.RandGen(); d += Math.RandGen(); d += Math.RandGen(); d +=
+             * Math.RandGen(); d += Math.RandGen(); d += Math.RandGen(); d +=
+             * Math.RandGen(); d += Math.RandGen(); d += Math.RandGen() - 6;
+             */
 
             dos.writeBytes(d + "\r");
 

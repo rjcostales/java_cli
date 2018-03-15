@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class Fibonacci {
 
     static long fibonacci(long n) {
@@ -10,11 +12,11 @@ public class Fibonacci {
 
     public static void main(String args[]) {
 
-        long start = System.nanoTime();
-        long n = fibonacci(40);
-        long end = System.nanoTime();
+        Date start = new Date();
+        long n = fibonacci(47);
+        Date end=  new Date();
 
         System.out.println(n);
-        System.out.println((end - start) / 1000000000.0);
+        System.out.println((end.getTime() - start.getTime()) / 1000.0);
     }
 }

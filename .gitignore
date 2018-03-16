@@ -1,6 +1,7 @@
+out/
+target/
 classes/
 .idea/
 *.iml
 
 test.txt
-data

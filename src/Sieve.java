@@ -8,7 +8,7 @@ public class Sieve {
 
         boolean[] flag = new boolean[size];
         int prime;
-        long count = 15;
+        long count = 10;
 
         System.out.println("Started... ");
         Date start = new Date();

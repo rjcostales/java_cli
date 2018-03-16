@@ -1,6 +1,9 @@
 out/
+<<<<<<< HEAD
 target/
 classes/
+=======
+>>>>>>> edc83827a154c3e8f69565c709e7c0159c59a548
 .idea/
 *.iml
 

@@ -17,6 +17,6 @@ public class Fibonacci {
         Date end = new Date();
 
         System.out.println(n);
-        System.out.println(end.getTime() - start.getTime() / 1000.0);
+        System.out.println((end.getTime() - start.getTime()) / 1000.0);
     }
 }

@@ -1,4 +1,4 @@
-package com.rjsc;
+package rjsc;
 
 import org.junit.Before;
 import org.junit.Test;

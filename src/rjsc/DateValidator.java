@@ -1,4 +1,4 @@
-package com.rjsc;
+package rjsc;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,5 @@
 /* prototype for recursive puzzle */
+package rjsc;
 
 import java.util.Date;
 

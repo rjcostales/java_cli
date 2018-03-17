@@ -1,3 +1,5 @@
+import rjsc.Time;
+
 import java.io.DataOutputStream;
 import java.io.FileOutputStream;
 import java.util.Date;
@@ -40,7 +42,7 @@ public class RandGen {
         fos.close();
 
         Date stop = new Date();
-        System.out.println("Done " + (stop.getTime() - start.getTime()) / 1000.0);
         System.out.println(sum1 + " " + sum2);
+        Time.printHoursMinutesSecond(stop.getTime() - start.getTime());
     }
 }

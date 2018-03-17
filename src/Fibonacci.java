@@ -1,8 +1,10 @@
 import java.util.Date;
 
+import rjsc.Time;
+
 public class Fibonacci {
 
-    static int fibonacci(int n) {
+    static long fibonacci(long n) {
 
         if (n > 1)
             return fibonacci(n - 1) + fibonacci(n - 2);
@@ -13,10 +15,10 @@ public class Fibonacci {
     public static void main(String argv[]) {
 
         Date start = new Date();
-        int n = fibonacci(47);
+        long n = fibonacci(47);
         Date end = new Date();
 
         System.out.println(n);
-        System.out.println((end.getTime() - start.getTime()) / 1000.0);
+        Time.printHoursMinutesSecond(end.getTime() - start.getTime());
     }
 }

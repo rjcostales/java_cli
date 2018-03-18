@@ -1,4 +1,3 @@
-
 /******************************************************************************
  *  Compilation:  javac Queens.java
  *  Execution:    java Queens n
@@ -44,6 +43,11 @@
 
 public class Queens {
 
+    public static void main(String[] args) {
+        // int n = Integer.parseInt(args[0]);
+        solve(8);
+    }
+
     /***************************************************************************
      * Return true if queen placement q[n] does not conflict with
      * other queens q[0] through q[n-1]
@@ -72,30 +76,22 @@ public class Queens {
         System.out.println();
     }
 
-
     /***************************************************************************
      *  Try all permutations using backtracking
      ***************************************************************************/
-    public static void enumerate(int n) {
+    public static void solve(int n) {
         int[] a = new int[n];
-        enumerate(a, 0);
+        solve(a, 0);
     }
 
-    public static void enumerate(int[] q, int k) {
+    public static void solve(int[] q, int k) {
         int n = q.length;
         if (k == n) printQueens(q);
         else {
             for (int i = 0; i < n; i++) {
                 q[k] = i;
-                if (isConsistent(q, k)) enumerate(q, k + 1);
+                if (isConsistent(q, k)) solve(q, k + 1);
             }
         }
     }
-
-
-    public static void main(String[] args) {
-        int n = Integer.parseInt(args[0]);
-        enumerate(n);
-    }
-
 }

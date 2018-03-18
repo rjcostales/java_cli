@@ -1,4 +1,4 @@
-import rjsc.Time;
+import rjsc.Utilities;
 
 import java.io.DataOutputStream;
 import java.io.FileOutputStream;
@@ -43,6 +43,6 @@ public class RandGen {
 
         Date stop = new Date();
         System.out.println(sum1 + " " + sum2);
-        Time.printHoursMinutesSecond(stop.getTime() - start.getTime());
+        Utilities.printHoursMinutesSecond(stop.getTime() - start.getTime());
     }
 }

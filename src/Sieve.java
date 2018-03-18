@@ -1,4 +1,4 @@
-import rjsc.Time;
+import rjsc.Utilities;
 
 import java.util.Date;
 
@@ -47,6 +47,6 @@ public class Sieve {
         long delta = stop.getTime() - start.getTime();
 
         System.out.println(count + " primes");
-        Time.printHoursMinutesSecond(delta);
+        Utilities.printHoursMinutesSecond(delta);
     }
 }

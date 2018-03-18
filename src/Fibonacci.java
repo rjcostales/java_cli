@@ -1,6 +1,6 @@
-import java.util.Date;
+import rjsc.Utilities;
 
-import rjsc.Time;
+import java.util.Date;
 
 public class Fibonacci {
 
@@ -19,6 +19,6 @@ public class Fibonacci {
         Date end = new Date();
 
         System.out.println(n);
-        Time.printHoursMinutesSecond(end.getTime() - start.getTime());
+        Utilities.printHoursMinutesSecond(end.getTime() - start.getTime());
     }
 }

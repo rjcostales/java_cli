@@ -8,8 +8,8 @@ import java.util.Random;
 public class GenerateList {
 
     public static void main(String argv[]) {
-        make("scratch.txt");
-        List<String> list = read("scratch.txt");
+        make("data/scratch.txt");
+        List<String> list = read("data/scratch.txt");
 
         Collections.sort(list);
 

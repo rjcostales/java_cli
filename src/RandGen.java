@@ -17,7 +17,7 @@ public class RandGen {
         double sum1 = 0.0;
         double sum2 = 0.0;
 
-        FileOutputStream fos = new FileOutputStream("database");
+        FileOutputStream fos = new FileOutputStream("data/database.dat");
         DataOutputStream dos = new DataOutputStream(fos);
 
         for (int i = 0; i < 1000; i++) {

@@ -1,11 +1,14 @@
 .DS_Store/
 
+.idea/
+*.iml
+
 out/
+*.class
+
 data/
 scratch/
 
-.idea/
-*.iml
 
 # for goofing around
 hacking/

@@ -88,7 +88,7 @@ public class ftp {
      * dash instead of a space would be a continuation).  Note, no special
      * IAC telnet commands are processed here.  Seems to work anyway.
      *
-     * @param is input data stream on the ftp control port socket
+     * @param is input database stream on the ftp control port socket
      * @return returns the first character of the last line as an
      * integer (ftpd return code)
      */
@@ -116,13 +116,13 @@ public class ftp {
     }                             // end getreply
 
     /**
-     * Performs downloading commands that need a data port.  Tells server
-     * which data port it will listen on, then sends command on control port,
-     * then listens on data port for server response.
+     * Performs downloading commands that need a database port.  Tells server
+     * which database port it will listen on, then sends command on control port,
+     * then listens on database port for server response.
      *
      * @param command        list, nlist, or retr plus arguments
      * @param saveToFile     whether to save to file or print to screen
-     *                       from data port
+     *                       from database port
      * @param incontrolport  input stream on the control port socket
      * @param outcontrolport output stream on the control port socket.
      */
@@ -166,7 +166,7 @@ public class ftp {
         // guess this should be an exception if false
         if (result == PRELIM) {
 
-            // connect to data port
+            // connect to database port
             Socket clientSocket = null;
 
             try {
@@ -303,7 +303,7 @@ public class ftp {
         // guess this should be an exception if false
         if (result == PRELIM) {
 
-            // listen on data port
+            // listen on database port
             Socket clientSocket = null;
 
             try {

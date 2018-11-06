@@ -4,8 +4,7 @@ out/
 .idea/
 *.iml
 
-data/
+database/
 scratch/
 
-data
 

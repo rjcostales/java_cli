@@ -21,7 +21,7 @@ public class Client {
 
         try {
 
-            reader = new BufferedReader(new FileReader("data"));
+            reader = new BufferedReader(new FileReader("database"));
 
             while (true) {
 

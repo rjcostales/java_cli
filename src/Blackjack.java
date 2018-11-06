@@ -8,8 +8,8 @@ public class Blackjack {
 
     public static void main(String argv[]) {
 
-        Vector<Integer> dealer = new Vector<Integer>();
-        Vector<Integer> player = new Vector<Integer>();
+        Vector<Integer> dealer = new Vector<>();
+        Vector<Integer> player = new Vector<>();
 
         int which;
         boolean dd;

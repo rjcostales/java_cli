@@ -2,4 +2,7 @@ out/
 .idea/
 *.iml
 
+scratch/
+
 data
+

@@ -23,7 +23,7 @@ public class JSONWrite {
 
         try {
 
-            FileWriter file = new FileWriter("test.json");
+            FileWriter file = new FileWriter("data/test.json");
             file.write(obj.toJSONString());
             file.flush();
             file.close();

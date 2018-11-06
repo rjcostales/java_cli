@@ -1,10 +1,12 @@
 .DS_Store/
 
 out/
+data/
+scratch/
+
 .idea/
 *.iml
 
-data/
-scratch/
+
 
 

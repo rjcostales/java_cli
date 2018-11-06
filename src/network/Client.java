@@ -58,7 +58,7 @@ public class Client {
 
             System.err.println("Trying to connect to unknown host: " + e);
 
-        }  catch (IOException e) {
+        } catch (IOException e) {
 
             System.err.println("IOException: " + e);
         }

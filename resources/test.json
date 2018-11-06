@@ -1,1 +1,9 @@
-{"name":"mkyong.com","age":100,"messages":["msg 1","msg 2","msg 3"]}
+{
+  "name": "mkyong.com",
+  "age": 100,
+  "messages": [
+    "msg 1",
+    "msg 2",
+    "msg 3"
+  ]
+}

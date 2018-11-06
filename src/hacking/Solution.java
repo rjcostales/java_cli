@@ -9,7 +9,7 @@ public class Solution {
         int i = scan.nextInt();
         Double d = scan.nextDouble();
         String s = scan.nextLine();
-        if (s.length()== 0)
+        if (s.length() == 0)
             s = scan.nextLine();
 
         System.out.println("String: " + s);

@@ -2,13 +2,7 @@
 
 .idea/
 *.iml
-
-out/
 *.class
 
 data/
-scratch/
-
-
-# for goofing around
-hacking/
+target/
